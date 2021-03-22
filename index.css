@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+main a:link {
+  background-color: #dff9fb;
+}
+main a:visited {
+  background-color: #f6e58d;
+}
+
+.navigator {
+  text-align: justify;
+  padding: 1rem;
+}
+
+ol {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.code {
+  color: orange;
+  font-weight: bolder;
+}
+
+.infor {
+  color: gray;
+}
+
+.foot {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2rem;
+  padding: 15px 30px;
+  background: #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+}

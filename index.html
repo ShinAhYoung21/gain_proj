@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>개인 프로젝트 main</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>shinahyo프로젝트</h1>
+    </header>
+    <hr>
+    <main>
+      <nav class="navigator">
+        <ol>
+          <li> <a href="1dday.html">2021.12.31 Dday clock</a> /
+            <span class="code">html,css,JS</span> /
+            <br>
+            <span class="infor">현재(초 단위)부터 2021년 12월 31일 자정까지 남은 시간을 계산하는 D-day카운터</span>
+          </li>
+          <hr>
+        </ol>
+      </nav>
+    </main>
+    <footer>
+      <div class="foot">
+        <input type="button" id="night_day" value="night" onclick="
+        const target = document.querySelector('body');
+        if(this.value === 'night'){
+          target.style.backgroundColor = 'black';
+          target.style.color = 'white';
+          this.value = 'day';
+        } else {
+          target.style.backgroundColor = 'white';
+          target.style.color = 'black';
+          this.value = 'night';
+        }
+        ">
+        ㅣshinahyoㅣ<a href="https://github.com/ShinAhYoung21" target="_blank">github main</a>ㅣ<a href="https://archive-shin.tistory.com/" target="_blank">tech blog</a>
+        ㅣ<a href="https://shinahyoung21.github.io/clone/">clone projects</a>
+      </div>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
