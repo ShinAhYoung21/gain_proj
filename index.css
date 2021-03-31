@@ -3,16 +3,13 @@ h1 {
   margin-top: 10px;
 }
 
-main a:link {
-  background-color: #dff9fb;
-}
-main a:visited {
-  background-color: #f6e58d;
-}
-
 .navigator {
   text-align: justify;
   padding: 1rem;
+}
+
+nav a {
+  background-color: #f6e58d;
 }
 
 ol {
